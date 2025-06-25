@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- Main Documentation Pages -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://iluvium-io.github.io/iluvium/assets/images/illuvium-banner.jpg</image:loc>
+      <image:caption>Illuvium Offline Setup Assistant - Main Interface</image:caption>
+      <image:title>Illuvium Gaming Setup Tool</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/installation/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://iluvium-io.github.io/iluvium/assets/images/installation-guide.png</image:loc>
+      <image:caption>Step-by-step installation guide for Illuvium offline setup</image:caption>
+      <image:title>Illuvium Installation Guide</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/gameplay/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://iluvium-io.github.io/iluvium/assets/images/arena-gameplay.jpg</image:loc>
+      <image:caption>Illuvium Arena battles and combat system</image:caption>
+      <image:title>Illuvium Arena Gameplay</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://iluvium-io.github.io/iluvium/assets/images/overworld-exploration.jpg</image:loc>
+      <image:caption>Illuvium Overworld exploration and creature discovery</image:caption>
+      <image:title>Illuvium Overworld Exploration</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/troubleshooting/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/optimization/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/faq/</loc>
+    <lastmod>2024-01-05T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Platform-Specific Pages -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/platforms/windows/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/platforms/macos/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/platforms/linux/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Gaming Guides -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/guides/arena-battles/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://iluvium-io.github.io/iluvium/assets/images/arena-strategy.png</image:loc>
+      <image:caption>Strategic arena battle formations and tactics</image:caption>
+      <image:title>Illuvium Arena Strategy Guide</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/guides/overworld-exploration/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/guides/controller-setup/</loc>
+    <lastmod>2024-01-08T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/guides/modding/</loc>
+    <lastmod>2024-01-05T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Technical Documentation -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/technical/system-requirements/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/technical/performance-tuning/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/technical/graphics-settings/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/technical/audio-configuration/</loc>
+    <lastmod>2024-01-08T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Community Pages -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/community/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/community/discord/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/community/contributing/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Support & Help -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/support/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/support/common-issues/</loc>
+    <lastmod>2024-01-12T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/support/error-codes/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Video Tutorials -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/tutorials/</loc>
+    <lastmod>2024-01-10T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <video:video>
+      <video:thumbnail_loc>https://iluvium-io.github.io/iluvium/assets/videos/setup-tutorial-thumb.jpg</video:thumbnail_loc>
+      <video:title>Illuvium Offline Setup - Complete Installation Guide</video:title>
+      <video:description>Complete step-by-step video tutorial for setting up Illuvium offline on Windows, macOS, and Linux</video:description>
+      <video:content_loc>https://iluvium-io.github.io/iluvium/assets/videos/setup-tutorial.mp4</video:content_loc>
+      <video:duration>900</video:duration>
+      <video:publication_date>2024-01-10T10:00:00+00:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>illuvium</video:tag>
+      <video:tag>setup</video:tag>
+      <video:tag>tutorial</video:tag>
+      <video:tag>gaming</video:tag>
+      <video:tag>offline</video:tag>
+    </video:video>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/tutorials/arena-combat/</loc>
+    <lastmod>2024-01-08T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <video:video>
+      <video:thumbnail_loc>https://iluvium-io.github.io/iluvium/assets/videos/arena-tutorial-thumb.jpg</video:thumbnail_loc>
+      <video:title>Illuvium Arena Combat - Strategy and Tips</video:title>
+      <video:description>Master Illuvium Arena battles with advanced strategies, team compositions, and combat tactics</video:description>
+      <video:content_loc>https://iluvium-io.github.io/iluvium/assets/videos/arena-tutorial.mp4</video:content_loc>
+      <video:duration>1200</video:duration>
+      <video:publication_date>2024-01-08T10:00:00+00:00</video:publication_date>
+      <video:family_friendly>yes</video:family_friendly>
+      <video:tag>illuvium</video:tag>
+      <video:tag>arena</video:tag>
+      <video:tag>strategy</video:tag>
+      <video:tag>combat</video:tag>
+      <video:tag>gaming</video:tag>
+    </video:video>
+  </url>
+
+  <!-- Release Notes & Changelog -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/releases/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/changelog/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/license/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/privacy/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/terms/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/security/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Download Pages -->
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/download/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/download/windows/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/download/macos/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://iluvium-io.github.io/iluvium/download/linux/</loc>
+    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset> 

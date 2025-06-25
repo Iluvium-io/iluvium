@@ -1,0 +1,269 @@
+# ===================================
+# Illuvium Offline Setup Assistant
+# .gitignore Configuration
+# ===================================
+
+# ========== SECURITY & CREDENTIALS ==========
+# CRITICAL: Never commit sensitive information
+.internal/GITHUB_CREDENTIALS.md
+.internal/
+*.credentials
+*.token
+*.key
+*.pem
+*.p12
+*.keystore
+.env
+.env.local
+.env.*.local
+
+# ========== BUILD & DISTRIBUTION ==========
+# Compiled output
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.exe
+*.msi
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.appimage
+
+# Temporary build files
+*.tmp
+*.temp
+*~
+*.bak
+*.backup
+*.orig
+
+# ========== NODE.JS & NPM ==========
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.npm
+.yarn-integrity
+.yarn/
+package-lock.json
+yarn.lock
+
+# ========== LOGS & DEBUGGING ==========
+logs/
+*.log
+debug/
+trace/
+crash-reports/
+error-reports/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# ========== OS & SYSTEM FILES ==========
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ========== DEVELOPMENT TOOLS ==========
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+.buildpath
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ========== GAME-SPECIFIC ==========
+# Game installation files (don't commit actual game files)
+game-files/
+illuvium-installation/
+epic-games-data/
+game-backups/
+saves-backup/
+
+# Setup assistant generated files
+setup-logs/
+installation-cache/
+downloaded-dependencies/
+extracted-files/
+temp-installation/
+
+# User-specific configuration
+user-config.json
+user-settings.ini
+local-preferences.xml
+
+# ========== DOCUMENTATION ==========
+# Generated documentation
+docs/_site/
+docs/.sass-cache/
+docs/.jekyll-cache/
+docs/.jekyll-metadata
+site/
+
+# ========== TESTING ==========
+# Test output
+test-results/
+coverage/
+.nyc_output
+junit.xml
+test-reports/
+
+# Test databases
+*.test.db
+*.test.sqlite
+
+# ========== DEPLOYMENT ==========
+# Deployment artifacts
+deploy/
+staging/
+release/
+packages/
+
+# Docker
+.dockerignore
+Dockerfile.prod
+docker-compose.override.yml
+
+# Cloud deployment
+.serverless/
+.vercel/
+.netlify/
+
+# ========== DEPENDENCIES & CACHES ==========
+# Package managers
+.pnpm-store/
+.yarn/
+.cache/
+.parcel-cache/
+
+# Python (if used for build tools)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+
+# ========== ARCHIVES & DOWNLOADS ==========
+# Compressed files (unless specifically needed)
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Downloaded installers
+*.exe
+*.msi
+*.dmg
+*.pkg
+
+# ========== PERSONAL NOTES ==========
+# Developer notes that shouldn't be public
+NOTES.md
+TODO-private.md
+ISSUES-local.md
+dev-notes/
+personal/
+
+# ========== GAMING COMMUNITY ==========
+# Streaming/recording files
+*.obs
+*.streamlabs
+recordings/
+clips/
+highlights/
+
+# Screenshots (unless part of documentation)
+screenshots-dev/
+test-images/
+debug-screenshots/
+
+# ========== CONFIGURATION ==========
+# Local configuration overrides
+config.local.json
+settings.local.ini
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# ========== MONITORING & ANALYTICS ==========
+# Error tracking
+.sentry/
+error-logs/
+crash-dumps/
+
+# Performance monitoring
+profiling/
+benchmarks-local/
+
+# ========== LEGAL & COMPLIANCE ==========
+# Legal review documents (until approved)
+legal-review/
+compliance-check/
+license-audit/
+
+# ========== END ==========
+
+# Add custom ignores below this line
+# (Project-specific files that should be ignored) 

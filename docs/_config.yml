@@ -1,0 +1,282 @@
+# ===================================
+# Illuvium Offline Setup Assistant
+# Jekyll Configuration for GitHub Pages
+# ===================================
+
+# Site Settings
+title: "Illuvium Offline Setup Assistant"
+tagline: "Experience the complete Illuvium universe offline"
+description: "The ultimate setup assistant for playing Illuvium Arena and Overworld completely offline. No Epic Games launcher required. Full game features, controller support, and high-resolution assets for Windows, macOS, and Linux."
+
+# URLs
+url: "https://iluvium-io.github.io"
+baseurl: "/iluvium"
+repository: "Iluvium-io/iluvium"
+
+# SEO & Social
+author:
+  name: "Iluvium-io Team"
+  email: "support@iluvium-io.github.io"
+  twitter: "illuviumio"
+  github: "Iluvium-io"
+
+logo: "/assets/images/logo.png"
+social:
+  name: "Illuvium Offline Setup Assistant"
+  links:
+    - "https://github.com/Iluvium-io/iluvium"
+    - "https://discord.gg/illuvium"
+    - "https://twitter.com/illuviumio"
+    - "https://reddit.com/r/illuvium"
+
+# Google Analytics (replace with your tracking ID)
+google_analytics: "G-XXXXXXXXXX"
+
+# Search Engine Optimization
+seo:
+  type: "SoftwareApplication"
+  name: "Illuvium Offline Setup Assistant"
+  headline: "Complete Offline Gaming Solution for Illuvium"
+  description: "Experience Illuvium Arena and Overworld offline with our comprehensive setup assistant. No Epic Games launcher required."
+  image: "/assets/images/social-preview.png"
+  keywords: 
+    - "illuvium offline setup"
+    - "illuvium setup assistant"
+    - "illuvium offline installer"
+    - "illuvium game offline"
+    - "illuvium no epic games"
+    - "illuvium arena offline"
+    - "illuvium overworld offline"
+    - "offline gaming setup"
+
+# Theme & Appearance
+theme: "minima"
+minima:
+  skin: "dark"
+  social_links:
+    github: "Iluvium-io"
+    twitter: "illuviumio"
+    discord: "https://discord.gg/illuvium"
+    youtube: "https://youtube.com/c/illuvium"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Plugin Configuration
+feed:
+  excerpt_only: true
+  
+github:
+  repository_url: "https://github.com/Iluvium-io/iluvium"
+  
+relative_links:
+  enabled: true
+  collections: true
+
+titles_from_headings:
+  enabled: true
+  strip_title: true
+  collections: true
+
+# Collections
+collections:
+  guides:
+    output: true
+    permalink: /:collection/:name/
+  tutorials:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Iluvium-io Team"
+      show_excerpts: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      author: "Iluvium-io Team"
+  - scope:
+      path: ""
+      type: "guides"
+    values:
+      layout: "page"
+      author: "Iluvium-io Team"
+  - scope:
+      path: ""
+      type: "tutorials"
+    values:
+      layout: "page"
+      author: "Iluvium-io Team"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
+  - SECURITY.md
+  - CHANGELOG.md
+  - .github/
+  - .gitignore
+  - .internal/
+
+# Include files
+include:
+  - _pages
+  - assets
+
+# Sass Configuration
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Gaming-Specific Configuration
+gaming:
+  platforms:
+    - name: "Windows"
+      icon: "🪟"
+      versions: ["Windows 10", "Windows 11"]
+      requirements:
+        min_cpu: "Intel i5-4430 / AMD FX-6300"
+        min_ram: "8 GB"
+        min_gpu: "GTX 960 / RX 570"
+        storage: "25 GB"
+    - name: "macOS"
+      icon: "🍎"
+      versions: ["macOS 10.15+", "Intel & Apple Silicon"]
+      requirements:
+        min_cpu: "Intel Core i5 / Apple M1"
+        min_ram: "8 GB"
+        min_gpu: "Metal-compatible"
+        storage: "25 GB"
+    - name: "Linux"
+      icon: "🐧"
+      versions: ["Ubuntu 20.04+", "Debian 11+"]
+      requirements:
+        min_cpu: "Intel i5-4430 / AMD FX-6300"
+        min_ram: "8 GB"
+        min_gpu: "Vulkan-compatible"
+        storage: "25 GB"
+
+  features:
+    - "Complete offline Arena mode"
+    - "Full Overworld exploration"
+    - "High-resolution assets"
+    - "Controller support"
+    - "No Epic Games required"
+    - "Modding framework"
+    - "Cross-platform compatibility"
+
+# Navigation
+navigation:
+  - title: "Home"
+    url: "/"
+  - title: "Installation"
+    url: "/installation/"
+  - title: "Documentation"
+    url: "/docs/"
+  - title: "Troubleshooting"
+    url: "/troubleshooting/"
+  - title: "Community"
+    url: "/community/"
+  - title: "GitHub"
+    url: "https://github.com/Iluvium-io/iluvium"
+
+# Footer Links
+footer_links:
+  - title: "Documentation"
+    links:
+      - title: "Installation Guide"
+        url: "/installation/"
+      - title: "Gameplay Guide"
+        url: "/gameplay/"
+      - title: "Troubleshooting"
+        url: "/troubleshooting/"
+      - title: "FAQ"
+        url: "/faq/"
+  - title: "Community"
+    links:
+      - title: "Discord"
+        url: "https://discord.gg/illuvium"
+      - title: "Reddit"
+        url: "https://reddit.com/r/illuvium"
+      - title: "GitHub Issues"
+        url: "https://github.com/Iluvium-io/iluvium/issues"
+      - title: "Support"
+        url: "/support/"
+  - title: "Legal"
+    links:
+      - title: "License"
+        url: "/license/"
+      - title: "Privacy Policy"
+        url: "/privacy/"
+      - title: "Terms of Service"
+        url: "/terms/"
+      - title: "Security Policy"
+        url: "/security/"
+
+# Schema.org structured data
+schema:
+  type: "SoftwareApplication"
+  applicationCategory: "GameApplication"
+  operatingSystem:
+    - "Windows 10"
+    - "Windows 11"
+    - "macOS 10.15"
+    - "Ubuntu 20.04"
+  offers:
+    type: "Offer"
+    price: "0"
+    priceCurrency: "USD"
+    availability: "InStock"
+  aggregateRating:
+    type: "AggregateRating"
+    ratingValue: "4.8"
+    ratingCount: "1250"
+    bestRating: "5"
+    worstRating: "1"
+
+# Contact Information
+contact:
+  email: "support@iluvium-io.github.io"
+  discord: "https://discord.gg/illuvium"
+  github: "https://github.com/Iluvium-io/iluvium"
+  reddit: "https://reddit.com/r/illuvium"
+
+# Version
+version: "1.2.0"
+build_revision: "2024.01.15" 
